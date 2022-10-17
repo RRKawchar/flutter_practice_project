@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_practice_project/screens/carousel_slider/slider1.dart';
+import 'package:flutter_practice_project/screens/carousel_slider/slider2.dart';
 import 'package:flutter_practice_project/screens/search/search_screen.dart';
 
 void main() {
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SearchScreen(),
+      home:  SearchScreen(),
     );
   }
 }
